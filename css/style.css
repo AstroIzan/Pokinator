@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Rubik+Burned&family=VT323&display=swap');
+
+/* TIPOGRAFIAS 
+    Classic Text | font-family: 'Montserrat', sans-serif;
+    Classic Text | font-family: 'Roboto', sans-serif;
+    Style Header | font-family: 'Rubik Burned', cursive;
+    Questions    | font-family: 'VT323', monospace;
+*/
+
+/* COLORES */
+    :root {
+        /* Amarillos */
+        --amarillo-primario: #FFCD00;
+        --amarillo-claro: #FFEF00;
+        --amarillo-oscuro: #7E6600;
+        /* Azules */
+        --azul-primario: #3366AB;
+        --azul-claro: #69a0e2;
+        --azul-oscuro: #12416d;
+        /* Rojos */
+        --rojo-primario: #cd2026;
+        --rojo-claro: #FF2626;
+        --rojo-oscuro: #801417;
+        /* Blancos */
+        --blanco-primario: #FAFAFA; }
+    /* COLOR DE BACKGROUNDS */
+    .color_primary_yellow { background-color: var(--amarillo-primario); }
+    .color_primary_blue { background-color: var(--azul-primario); }
+    .color_primary_red { background-color: var(--rojo-primario); }
+    .color_primary_white { background-color: var(--blanco-primario); }
+
+    .color_secondary_yellow { background-color: var(--amarillo-claro); }
+    .color_secondary_blue { background-color: var(--azul-claro); }
+    .color_secondary_red { background-color: var(--rojo-claro); }
+
+    .color_tertiary_yellow { background-color: var(--amarillo-oscuro); }
+    .color_tertiary_blue { background-color: var(--azul-oscuro); }
+    .color_tertiary_red { background-color: var(--rojo-oscuro); }
+
+    /* COLOR DE TEXTOS */
+    .color_text_yellow { color: var(--amarillo-primario); }
+    .color_text_blue { color: var(--azul-primario); }
+    .color_text_red { color: var(--rojo-primario); }
+    .color_text_white { color: var(--blanco-primario); }
+    
+    /* ESTILOS DE TEXTOS */
+    .text-montse { font-family: 'Montserrat', sans-serif; }
+    .text-roboto { font-family: 'Roboto', sans-serif; }
+    .text-rubik { font-family: 'Rubik Burned', cursive; }
+    
+    .logo-header { width: 200px; }
+
+    #navbarSupportedContent a:hover {
+        color: var(--amarillo-primario);
+        transition: 0.5s; }
+    
+    #navbarSupportedContent a {
+        color: var(--azul-primario);
+        transition: 0.5s; }
+
+    #header2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        background-image: url(../src/fondo-texto.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        color: var(--azul-primario);
+        font-weight: bold;
+        width: 500px;
+        height: 90px;
+        margin: auto; }
+    
+    #header3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        background-image: url(../src/fondo-texto.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        color: var(--azul-primario);
+        font-weight: bold;
+        width: 650px;
+        height: 120px;
+        margin: auto; }
+
+    #header4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        background-image: url(../src/fondo-texto.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        color: var(--azul-primario);
+        font-weight: bold;
+        width: 800px;
+        height: 180px;
+        margin: auto; }
+
+    .play-image {
+        width: 100px;
+        height: 40px;
+        background-image: url(../src/play.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        transition: all 0.5s; }
+
+    .play-image:hover { background-image: url(../src/play-hover.png); }
+
+    .header-pokemons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        font-weight: bold;
+        margin: auto; }
+    
+    .mini {
+        font-size: 1.5em;
+        text-decoration: none;
+        transition: all 0.5s;  }
+
+    .mini:hover { 
+        background-image: url(../src/pokemons/fondo-texto-hover.png);
+        color: var(--blanco-primario);
+        transform: scale(1.2); }
+    
+    .mini:active { transform: scale(1); }
+
+    .electric {
+        background-image: url(../src/pokemons/electrico/fondo-texto-electrico.png);
+        color: var(--negro-primario);
+        width: 650px;
+        height: 120px; }
+    
+    .planta {
+        background-image: url(../src/pokemons/planta/fondo-texto-planta.png);
+        color: var(--blanco-primario);
+        width: 650px;
+        height: 120px; }
+
+    .aigua {
+        background-image: url(../src/pokemons/agua/fondo-texto-agua.png);
+        color: var(--blanco-primario);
+        width: 650px;
+        height: 120px;  }
+
+    .fuego {
+        background-image: url(../src/pokemons/fuego/fondo-texto-fuego.png);
+        color: var(--negro-primario);
+        width: 650px;
+        height: 120px;  }
+    
+    .psiquico {
+        background-image: url(../src/pokemons/psiquico/fondo-texto-psiquico.png);
+        color: var(--blanco-primario);
+        width: 650px;
+        height: 120px; }
+    
+    .normal {
+        background-image: url(../src/pokemons/normal/fondo-texto-normal.png);
+        color: var(--blanco-primario);
+        width: 650px;
+        height: 120px; }
+
+    .roca {
+        background-image: url(../src/pokemons/roca/fondo-texto-roca.png);
+        color: var(--negro-primario);
+        width: 650px;
+        height: 120px; }
+    
+    .acero {
+        background-image: url(../src/pokemons/acero/fondo-texto-acero.png);
+        color: var(--negro-primario);
+        width: 650px;
+        height: 120px; }
+    
+    #juego {
+        background-image: url(../src/final_nintendo.png);
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center; }
+
+    #info p {
+        font-size: 1.2em;
+        color: var(--negro-primario); }
+
+    .line { 
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+
+    a.button_preg {
+        transition: all 0.5s;
+        padding: 0px 15px;
+        margin: 10px;
+        background-image: url(../src/question_layout.png);
+        color: black;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        font-family: 'VT323', monospace;
+        font-size: 2.5em;
+        text-align: center;
+        text-decoration: none;
+         }
+
+    a.button_preg:hover {
+        background-image: url(../src/question_layout_hover.png); }
+
+    a.button_preg_dif {
+        width: 120px;
+        margin: 15px;
+        transition: all 0.5s;
+        background-image: url(../src/question_layout_dif.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        color: black;
+        background-position: center;
+        font-family: 'VT323', monospace;
+        font-size: 2.5em;
+        text-align: center;
+        text-decoration: none; }
+    
+
+    a.button_preg_dif:hover {
+        background-image: url(../src/question_layout_hover_dif.png); }
+
+    .preguntas { 
+        margin-top: 150px;
+        width: 444px;}
+
+    .alto { margin-top: 220px !important;}
+
+    .wrapper {
+        margin-top: 90px;
+        display: grid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 270px;
+        background-image: url(../src/dialog_layout.png);    
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        padding: 42px;
+        box-sizing: border-box;
+        place-items: center; }
+        
+    .typing-demo {
+        width: 50ch;
+        animation: typing 2s steps(50), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: 'VT323', monospace;
+        opacity: 80%;
+        font-size: 2em; }
+    
+    .typing-demo-petit {
+        width: 30ch;
+        animation: typing 2s steps(30), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: 'VT323', monospace;
+        opacity: 80%;
+        font-size: 2em; }
+
+    .typing-demo-molt-petit {
+        width: 20ch;
+        animation: typing 2s steps(30), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: 'VT323', monospace;
+        opacity: 80%;
+        font-size: 2em; }
+        
+    @keyframes typing { from { width: 0 } }    
+    @keyframes blink { 50% { border-color: transparent } }
+
+    .div-resposta{ margin-top: 90px;}
+
+    .cagada {
+        margin-top: 160px;
+        width: 444px;
+        text-align: center;
+        font-family: 'VT323', monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; }
+    
+    .cagada textarea {
+        border: none;
+        border-bottom: 2px solid black;
+        padding-left: 10px;
+        font-size: 1.2em;
+    }
+    
+    .cagada button {
+        background-image: url(../src/question_layout_dif.png);
+        font-size: 1.7em;
+        margin: 10px;
+        width: 90px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-family: 'VT323', monospace;
+        border: none;
+        background-color: var(--blanco-primario);
+        transition: all 0.5s; }
+
+    .cagada button:hover { background-image: url(../src/question_layout_hover_dif.png); }
+
+    .acertado {
+        margin-top: 40px !important;
+        font-size: 2em;
+        font-family: 'VT323', monospace;
+    }

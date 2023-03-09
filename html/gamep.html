@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Pokinator</title>
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg text-dark">
+        <div class="container">
+            <!-- Logo -->
+            <img src="../src/logo.png" class="logo-header">
+            <!-- Boton para cuando se hacer pequeña -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center">
+                    <!-- Primer Link a Inicio -->
+                    <li class="nav-item"> 
+                        <a class="nav-link active fw-bold" aria-current="page" href="../html/index.html">Inici</a>
+                    </li>
+                    <!-- Segundo Link a ???? -->
+                    <li class="nav-item"> 
+                        <a class="nav-link active fw-bold" aria-current="page" href="../html/about.html">Qui som?</a>
+                    </li>
+                    <!-- Tercer Link a ???? -->
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" aria-current="page" href="../html/index.html">FAQ</a>
+                    </li>
+                    <!-- Dropdown con links a ???? -->
+                    <li class="nav-item dropdown fw-bold color_text_blue">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Més Informació</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item fw-bold color_text_blue" href="../html/gamep.html">Pokemons del joc</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item fw-bold color_text_blue" href="../html/versions.html">Control de versions</a></li>
+                        </ul>
+                    </li>
+                    <!-- Link a jugar -->
+                    <li class="nav-item"> 
+                        <a class="nav-link active fw-bold" aria-current="page" href="../html/ini_game.html"><div class="play-image"></div></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Imagen del header -->
+    <img src="../src/banner.png" class="img-fluid w-100" alt="...">
+    <!-- Section con los links a cada uno -->
+    <div class="container" id="menu_tipus">
+        <div class="row">
+            <div class="col-12 col-mb-6 col-lg-3">
+                <a href="#electric" class="header-pokemons mini w-100 text-rubik electric">Electric</a>
+            </div>
+            <div class="col-12 col-mb-6 col-lg-3">
+                <a href="#planta" class="header-pokemons mini w-100 text-rubik planta">Planta</a>
+            </div>
+            <div class="col-12 col-mb-6 col-lg-3">
+                <a href="#aigua" class="header-pokemons mini w-100 text-rubik aigua">Aigua</a>
+            </div>
+            <div class="col-12 col-mb-6 col-lg-3">
+                <a href="#fuego" class="header-pokemons mini w-100 text-rubik fuego">Foc</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-mb-6 col-lg-3">
+                <a href="#psiquico" class="header-pokemons mini w-100 text-rubik psiquico">Psiquic</a>
+            </div>
+            <div class="col-12 col-mb-6 col-lg-3">
+                <a href="#roca" class="header-pokemons mini w-100 text-rubik roca">Roca</a>
+            </div>
+            <div class="col-12 col-mb-6 col-lg-3">
+                <a href="#normal" class="header-pokemons mini w-100 text-rubik normal">Normal</a>
+            </div>
+            <div class="col-12 col-mb-6 col-lg-3">
+                <a href="#acero" class="header-pokemons mini w-100 text-rubik acero">Acer</a>
+            </div>
+        </div>
+    </div>
+    <!-- Section de pokemons -->
+    <div id="info">
+        <div class="container mt-5 d-flex flex-column align-items-center">
+            <!-- Grup de pokemons -->
+            <h2 class="text-rubik header-pokemons mt-5 electric" id="electric">Tipus electric</h2>
+            <div class="grup-pokemon w-75 d-flex flex-column align-items-center mb-5">
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5 mb-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 electric" id="electric">Pikachu</h3>
+                        <p>Com més potent és l'energia elèctrica que genera aquest Pokémon, més suaus i elàstiques es tornen les bosses de les galtes.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/electrico/pikachu.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 electric" id="electric">Voltorb</h3>
+                        <p>Es diu que es camufla com una Poké Ball. Al mínim estímul s'autodestruirà.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/electrico/voltorb.png" class="img-fluid w-50" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 electric" id="electric">Magnemite</h3>
+                        <p>A vegades es desplomen a terra després d'esgotar el subministrament elèctric intern, però n'hi ha prou amb una petita bateria per reanimar-los.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/electrico/magnemite.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 electric" id="electric">Emolga</h3>
+                        <p>Planeja per l'aire, gairebé com si dansés, mentre desprèn electricitat. Resulta adorable, però pot causar força problemes.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/electrico/emolga.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 electric" id="electric">Ampharos</h3>
+                        <p>La llum que emet la seva cua es pot veure des de l'espai, delatant la seva presència a tothom. És per això que normalment la manté apagada.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/electrico/ampharos.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+            </div>
+            <!-- Grup de pokemons -->
+            <h2 class="text-rubik header-pokemons mt-5 planta" id="planta">Tipus planta</h2>
+            <div class="grup-pokemon w-75 d-flex flex-column align-items-center mb-5">
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5 mb-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/planta/bulbasur.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 planta" id="planta">Bulbasur</h3>
+                        <p>Aquest Pokémon neix amb una llavor al llom, que brolla amb el pas del temps.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/planta/meganium.png" class="img-fluid w-50" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 planta" id="planta">Meganium</h3>
+                        <p>La fragància de la flor de Meganium aplaca i suavitza els ànims. En lluitar, aquest Pokémon allibera més 
+                            quantitat d'essència per disminuir l'ànim de combat del seu oponent.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/planta/oddish.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 planta" id="planta">Oddish</h3>
+                        <p>Es mou en exposar-se a la llum de la lluna. Merodeja a la nit per escampar les llavors.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/planta/roselia.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 planta" id="planta">Roselia</h3>
+                        <p>Les flors que té emanen una aroma relaxant. Com més intens, millor és el vostre estat de salut.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/planta/snivy.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 planta" id="planta">Snivy</h3>
+                        <p>Quan rep els raigs de sol, es mou molt més ràpid que de costum. Usa millor les lianes que les mans.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Grup de pokemons -->
+            <h2 class="text-rubik header-pokemons mt-5 aigua" id="aigua">Tipus aigua</h2>
+            <div class="grup-pokemon w-75 d-flex flex-column align-items-center mb-5">
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5 mb-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 aigua" id="aigua">Squirtle</h3>
+                        <p>Quan retreu el seu llarg coll a la closca, dispara aigua a una pressió increïble.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/agua/squirtle.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 aigua" id="aigua">Magikarp</h3>
+                        <p>És el Pokémon més feble i patètic que existeix, amb una força i velocitat pràcticament nul·les.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/agua/magikarp.png" class="img-fluid w-50" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 aigua" id="aigua">Octillery</h3>
+                        <p>Té voler pels forats, fins al punt d'ocupar els que han fet altres per niar i dormir-hi.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/agua/octillery.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 aigua" id="aigua">Kyogre</h3>
+                        <p>Kyogre se serveix de l'energia de la natura per realitzar la seva Regressió Primigènia i recobrar-ne 
+                            l'aparença primitiva. Amb aquest poder, pot desencadenar tempestes per expandir els oceans.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/agua/kyogre.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 aigua" id="aigua">Sharpedo</h3>
+                        <p>Quan detecta l'olor d'una presa, expel·leix aigua marina per propulsar-se cap endavant i atacar a una velocitat de 120 km/h.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/agua/sharpedo.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+            </div>
+            <!-- Grup de pokemons -->
+            <h2 class="text-rubik header-pokemons mt-5 fuego" id="fuego">Tipus foc</h2>
+            <div class="grup-pokemon w-75 d-flex flex-column align-items-center mb-5">
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5 mb-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/fuego/charmander.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 fuego" id="fuego">Charmander</h3>
+                        <p>Prefereix les coses calentes. Diuen que quan plou li surt el vapor de la punta de la cua.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/fuego/combusken.png" class="img-fluid w-50" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 fuego" id="fuego">Combusken</h3>
+                        <p>Combusken fortalece las piernas corriendo por llanos y montañas. Este Pokémon tiene en 
+                            las extremidades inferiores tanto fuerza como velocidad. Puede dar hasta diez patadas por segundo.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/fuego/cyndaquil.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 fuego" id="fuego">Cyndaquil</h3>
+                        <p>Cyndaquil es protegeix deixant anar flames pel llom. Quan està enfadat, les flames són feres, però, 
+                            si està cansat, només aconsegueix fer algunes espurnes que no arriben a quallar en una completa combustió.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/fuego/pansear.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 fuego" id="fuego">Pansear</h3>
+                        <p>Pokémon molt intel·ligent que té el costum de torrar les baies abans de menjar-se-les. Ajuda molt els humans.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/fuego/rapidash.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 fuego" id="fuego">Rapidash</h3>
+                        <p>En néixer és una mica lent, però va enfortint les potes de mica en mica en disputar carreres amb els seus congèneres.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Grup de pokemons -->
+            <h2 class="text-rubik header-pokemons mt-5 psiquico" id="psiquico">Tipus psiquic</h2>
+            <div class="grup-pokemon w-75 d-flex flex-column align-items-center mb-5">
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5 mb-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 psiquico" id="psiquico">Mewtwo</h3>
+                        <p>El seu ADN és gairebé el mateix que el de Mew. Tot i això, la seva mida i caràcter són molt diferents.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/psiquico/mewtwo.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 psiquico" id="psiquico">Abra</h3>
+                        <p>És capaç d'usar els seus poders psíquics fins i tot adormit. Pel que sembla, el contingut del son influeix a les seves facultats.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/psiquico/abra.png" class="img-fluid w-50" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 psiquico" id="psiquico">Deoxys</h3>
+                        <p>Després d'estar exposat a un raig làser, l'ADN d'un virus espacial va patir una mutació i va 
+                            donar origen a Deoxys. Segons sembla, l'òrgan cristal·lí que aquest Pokémon té al tors és el cervell.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/psiquico/deoxys.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 psiquico" id="psiquico">Mr. Mime</h3>
+                        <p>Molts estudiosos sostenen que el desenvolupament de les seves enormes mans és degut al seu afany per practicar la pantomima.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/psiquico/mr_mime.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 psiquico" id="psiquico">Cosmog</h3>
+                        <p>Fins i tot la brisa més lleu és capaç d'arrossegar el seu cos, compost d'una matèria gasosa inestable, però no sembla que això el molesti.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/psiquico/cosmog.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+            </div>
+            <!-- Grup de pokemons -->
+            <h2 class="text-rubik header-pokemons mt-5 roca" id="roca">Tipus roca</h2>
+            <div class="grup-pokemon w-75 d-flex flex-column align-items-center mb-5">
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5 mb-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/roca/onix.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 roca" id="roca">Onix</h3>
+                        <p>En obrir-se pas sota terra, va absorbint tot el que troba. Això fa que el cos sigui així de sòlid.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/roca/aerodactyl.png" class="img-fluid w-50" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 roca" id="roca">Aerodactyl</h3>
+                        <p>Un ferotge Pokémon de l'època prehistòrica al qual no són suficients tots els avenços tecnològics actuals per regenerar a la perfecció.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/roca/larvitar.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 roca" id="roca">Larvitar</h3>
+                        <p>Neix al subsòl a gran profunditat. Després d'ingerir la terra que l'envolta, sorgeix a la superfície i es converteix en pupa.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/roca/lycanroc.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 roca" id="roca">Lycanroc</h3>
+                        <p>Un Pokémon tranquil i prudent. La seva cabellera de pedra és tan esmolada com una ganiveta.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/roca/golem.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 roca" id="roca">Golem</h3>
+                        <p>Només mudar la pell, el seu cos es torna tou i blanquinós, però s'endureix al cap de poc temps d'entrar en contacte amb l'aire.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Grup de pokemons -->
+            <h2 class="text-rubik header-pokemons mt-5 normal" id="normal">Tipus normal</h2>
+            <div class="grup-pokemon w-75 d-flex flex-column align-items-center mb-5">
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5 mb-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 normal" id="normal">Eevee</h3>
+                        <p>És capaç d'alterar la composició del cos per adaptar-se a l'entorn.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/normal/eevee.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 normal" id="normal">Ditto</h3>
+                        <p>Redistribueix les cèl·lules del cos per cobrar l'aparença del que veu, però torna a la normalitat en relaxar-se.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/normal/ditto.png" class="img-fluid w-50" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 normal" id="normal">Porygon</h3>
+                        <p>Es tracta del primer Pokémon del món creat a partir de codis de programació gràcies a l'ús de tecnologia d'avantguarda.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/normal/porygon.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 normal" id="normal">Miltank</h3>
+                        <p>A causa de la nutritiva llet que produeix, ha contribuït al benestar d'humans i Pokémon des de temps immemorials.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/normal/miltank.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 normal" id="normal">Snorlax</h3>
+                        <p>No està satisfet fins haver ingerit 400 kg de menjar cada dia. Quan acaba de menjar, es queda adormit.</p>
+                    </div>
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/normal/snorlax.png" class="img-fluid w-75" alt="...">
+                    </div>
+                </div>
+            </div>
+            <!-- Grup de pokemons -->
+            <h2 class="text-rubik header-pokemons mt-5 acero" id="acero">Tipus acer</h2>
+            <div class="grup-pokemon w-75 d-flex flex-column align-items-center mb-5">
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5 mb-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/acero/meltan.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 acero" id="acero">Meltan</h3>
+                        <p>El cos està compost d'acer líquid. Fundeix les partícules de ferro i altres metalls del subsòl per després absorbir-les.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/acero/bronzong.png" class="img-fluid w-50" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 acero" id="acero">Bronzong</h3>
+                        <p>Antany se'l considerava una deïtat que portava les pluges. Quan s'enfada, emet un so lúgubre que recorda el toc d'una campana.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/acero/jirachi.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 acero" id="acero">Jirachi</h3>
+                        <p>Explica la llegenda que Jirachi farà realitat qualsevol desig que se li escrigui a les notes que porta al cap quan les llegeixi 
+                            després de sortir de la seva letargia. Si aquest Pokémon sent perill, lluitarà sense haver arribat a despertar-se.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/acero/metagross.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 acero" id="acero">Metagross</h3>
+                        <p>La seva força magnètica es potencia en temperatures sota zero, per la qual cosa els Metagross que habiten a muntanyes nevades són especialment vivaços.</p>
+                    </div>
+                </div>
+                <!-- Pokemon individual -->
+                <div class="pokemon w-100 d-flex justify-content-between mt-5">
+                    <div class="image w-50 d-flex justify-content-center align-items-center">
+                        <img src="../src/pokemons/acero/lairon.png" class="img-fluid w-75" alt="...">
+                    </div>
+                    <div class="column w-50 d-flex flex-column justify-content-center align-items-center">
+                        <h3 class="text-abys header-pokemons m-0 acero" id="acero">Lairon</h3>
+                        <p>Habita en zones riques en ferro i amb nombroses fonts, per la qual cosa en el passat les disputes territorials amb els humans eren freqüents.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="py-5 mt-5 color_primary_yellow">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <!-- Section de informacion -->
+                <div class="col-6 col-lg-2 d-flex flex-column align-items-center">
+                    <h5 class="fw-bold color_text_blue">Informació</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="../html/about.html" class="nav-link p-0 text-center color_text_blue">Qui som?</a></li>
+                        <li class="nav-item mb-2"><a href="../html/gamep.html" class="nav-link p-0 text-center color_text_blue">Pokemons del joc</a></li>
+                        <li class="nav-item mb-2"><a href="../html/gameq.html" class="nav-link p-0 text-center color_text_blue">Preguntes del joc</a></li>
+                        <li class="nav-item mb-2"><a href="../html/index.html" class="nav-link p-0 text-center color_text_blue">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="../html/versions.html" class="nav-link p-0 text-center color_text_blue">Versions</a></li>
+                    </ul>
+                </div>
+                <!-- Section de contacte -->
+                <div class="col-6 col-lg-2 d-flex flex-column align-items-center">
+                    <h5 class="fw-bold color_text_blue">Xarxes Socials</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.1/examples/footers/#" class="nav-link p-0 text-center color_text_blue">Twitter</a></li>
+                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.1/examples/footers/#" class="nav-link p-0 text-center color_text_blue">Instagram</a></li>
+                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.1/examples/footers/#" class="nav-link p-0 text-center color_text_blue">Google+</a></li>
+                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.1/examples/footers/#" class="nav-link p-0 text-center color_text_blue">Facebook</a></li>
+                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.1/examples/footers/#" class="nav-link p-0 text-center color_text_blue">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <!-- Section de jugar -->
+                <div class="col-12 col-lg-4 offset-1 p-0 m-0">
+                    <form class="d-flex flex-column align-items-center">
+                        <h5 class="fw-bold color_text_blue">Vols probar pokinator?</h5>
+                        <p class="fw-bold text-center color_text_blue">Hem d'endevinar el pokemon en el que estiguis pensant!</p>
+                        <a href="../html/ini_game.html" class="btn btn-primary text-light w-75 m-auto mt-4 color_primary_blue">Play</a>
+                        <p class="pt-5 text-center fw-bold color_text_blue">&copy;2022 Pokinator, Inc. All rights reserved.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
